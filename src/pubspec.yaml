@@ -1,0 +1,10 @@
+name: dart_algorithms
+version: 1.0.0
+description: Algorithms in Dart.
+homepage: https://github.com/rodydavis/dart_algorithms
+environment:
+  sdk: ">=2.0.0 <3.0.0"
+dependencies:
+  shelf: ^0.7.5
+  args: ^1.5.4
+  console: ^3.1.0
