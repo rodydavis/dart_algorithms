@@ -1,9 +1,9 @@
 import 'dart:math';
 
-main(List<String> args) {
-  final _result = levenshteinDistance('abc', 'ybde');
-  print('levenshteinDistance -> $_result');
-}
+// main(List<String> args) {
+//   final _result = levenshteinDistance('abc', 'ybde');
+//   print('levenshteinDistance -> $_result');
+// }
 
 int levenshteinDistance(String firstString, String secondString) {
   if (firstString != null && secondString != null) {
