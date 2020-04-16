@@ -26,7 +26,11 @@ String longestPalindromicFromPosition(String string, int left, int right) {
     }
     leftIdx--;
     rightIdx++;
-    result = leftChar + result + rightChar;
+    if (left == right && result.isEmpty) {
+      result = leftChar;
+    } else {
+      result = leftChar + result + rightChar;
+    }
   }
   return result;
 }
