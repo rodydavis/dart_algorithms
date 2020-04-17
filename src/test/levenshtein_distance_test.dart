@@ -3,7 +3,7 @@ import 'package:test/test.dart';
 
 void main() {
   test('levenshtein distance', () {
-    final _output = groupAnagrams(["act", "cat", "bo", "ob"]);
-    expect(_output, [['act', 'cat'], ['bo', 'ob']]);
+    final _output = levenshteinDistance("act", "bcat");
+    expect(_output, 2);
   });
 }

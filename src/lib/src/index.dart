@@ -4,3 +4,4 @@ export 'longest_palindromic_substring.dart';
 export 'permutations.dart';
 export 'powerset.dart';
 export 'two_number_sum.dart';
+export 'youngest_common_ancestor.dart';
