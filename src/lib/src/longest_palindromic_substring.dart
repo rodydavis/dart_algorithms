@@ -1,8 +1,3 @@
-// main(List<String> args) {
-//   final _result = longestPalindromicSubstring('abaxyzzyxf');
-//   print('longestPalindromicSubstring -> $_result');
-// }
-
 String longestPalindromicSubstring(String string) {
   var longestString = '';
   for (var i = 0; i < string.length; i++) {

@@ -8,3 +8,5 @@ dependencies:
   shelf: ^0.7.5
   args: ^1.5.4
   console: ^3.1.0
+dev_dependencies:
+  test: any

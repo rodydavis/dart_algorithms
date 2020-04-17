@@ -1,13 +1,14 @@
 import 'dart:math';
 
-// main(List<String> args) {
-//   final _result = levenshteinDistance('abc', 'ybde');
-//   print('levenshteinDistance -> $_result');
-// }
-
 int levenshteinDistance(String firstString, String secondString) {
   if (firstString != null && secondString != null) {
-    final edits = <List<int>>[[]];
+    final edits = <List<int>>[];
+    // for (var x = 0; x < firstString.length + 1; x++) {
+    //   edits.add([]);
+    //   for (var y = 0; y < secondString.length + 1; y++) {
+    //     edits[x].add(0);
+    //   }
+    // }
     for (var x = 0; x < firstString.length + 1; x++) {
       edits[x][0] = x;
     }

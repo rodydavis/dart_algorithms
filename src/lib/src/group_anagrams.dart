@@ -1,8 +1,3 @@
-// main(List<String> args) {
-//   final _output = groupAnagrams(["act", "cat", "bo", "ob"]);
-//   print('groupAnagrams -> $_output');
-// }
-
 List<List<String>> groupAnagrams(List<String> words) {
   final _groups = <String, List<String>>{};
   for (final word in words) {

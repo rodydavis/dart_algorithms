@@ -1,8 +1,3 @@
-// main(List<String> args) {
-//   final _result = permutations([1, 2, 3]);
-//   print('permutations -> $_result');
-// }
-
 List<List<int>> permutations(List<int> array) {
   final List<List<int>> _results = [];
   swapForPermutations(0, array, _results);
