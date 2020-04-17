@@ -13,5 +13,5 @@ List<List<String>> groupAnagrams(List<String> words) {
 String sortWord(String val) {
   final _letters = val.split('');
   _letters.sort();
-  return _letters.join();
+  return _letters.join('');
 }
